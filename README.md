@@ -46,7 +46,7 @@ We will use that profile here:
 ```
 provider "aws" {
   region     = "ap-south-1"
-  profile = "rk_18"
+  profile = "aksharma"
 }
 ```
 ## Step 1 : Write an Infrastructure as code using terraform, which automatically create a VPC.

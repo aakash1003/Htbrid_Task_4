@@ -1,4 +1,4 @@
-# Htbrid_Task_4
+# Hybrid_Task_4
 
 ## Problem Statement:
 1. Write an Infrastructure as code using terraform, which automatically create a VPC.
@@ -12,10 +12,6 @@
 7. Launch an ec2 instance which has Wordpress setup already having the security group allowing port 80 sothat our client can connect to our wordpress site. Also attach the key to instance for further login into it.
 8. Launch an ec2 instance which has MYSQL setup already with security group allowing port 3306 in private subnet so that our wordpress vm can connect with the same. Also attach the key with the same.
 
-## Prerequisites:
-- AWS CLIv2 installed and configured with IAM user.
-- Minikube, Terraform installed.
-- kubectl configured.
 ## AWS VPC
 Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways. You can use both IPv4 and IPv6 in your VPC for secure and easy access to resources and applications.
 
